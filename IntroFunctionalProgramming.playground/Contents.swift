@@ -18,6 +18,9 @@ struct Ride {
 }
 
 let parkRides = [
-    Ride(name: "Raging Rapids", types: [.Family, .Thrill, .Water], waitTime: 45.0)
+    Ride(name: "Raging Rapids", types: [.Family, .Thrill, .Water], waitTime: 45.0),
+    Ride(name: "Crazy Funhouse", types: [.Family], waitTime: 10.0),
+    Ride(name: "Spinning Tea Cups", types: [.Kids], waitTime: 15.0),
+    Ride(name: "Spooky Hollow", types: [.Scary], waitTime: 30.0),
     
 ]
